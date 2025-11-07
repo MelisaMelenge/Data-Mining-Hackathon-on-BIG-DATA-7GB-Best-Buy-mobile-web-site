@@ -5,6 +5,8 @@ This repository was created for the System Analysis and Design course. It contai
  **Workshop Report:** [Workshop 1](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop%201/Workshop1.pdf)
 # Workshop 2 — Kaggle Systems Design
  **Workshop Report:** [Workshop 2](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop_2_Design/Workshop2.pdf)
+# Workshop 3 — Robust System Design and Project Management
+ **Workshop Report:** [Workshop 3](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop_2_Design/Workshop2.pdf)
  
 ##  Authors
 - **Juan Diego Martínez Beltrán**  

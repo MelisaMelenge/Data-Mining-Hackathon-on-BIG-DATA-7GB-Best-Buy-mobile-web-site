@@ -18,8 +18,8 @@ For project management we adopted Scrum with Kanban tracking. Roles were defined
 
 ## Additional Sources
 
-- Workshop 1 Report  
-- Workshop 2 Report  
+**Workshop Report:** [Workshop 1](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop%201/Workshop1.pdf)
+ **Workshop Report:** [Workshop 2](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop_2_Design/Workshop2.pdf)
 - Draw.io: https://app.diagrams.net/  
 - Best Buy Official Site: https://www.bestbuy.com/
 

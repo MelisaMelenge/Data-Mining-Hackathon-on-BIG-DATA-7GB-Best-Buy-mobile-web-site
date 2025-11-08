@@ -2,7 +2,7 @@
 
 *Kaggle competition:* [Data Mining Hackathon on BIG DATA (7GB) — Best Buy Mobile Web Site](https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big/overview)
 
-*Workshop Report:* Workshop 3
+ **Workshop Report:** [Workshop 3](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop-3/Workshop3.pdf)
 
 ---
 

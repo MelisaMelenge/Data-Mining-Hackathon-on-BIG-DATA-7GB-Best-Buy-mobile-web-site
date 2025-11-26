@@ -6,4 +6,4 @@ This folder contains the data presented in the project. Since the files are quit
 2. https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big/data?select=train.csv
 3. https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big/data?select=test.csv
 4. https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big/data?select=product_data.tar.gz
-5. https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big/data?select=popular_skus.py
+5. https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big/data?select=popular_skus.csv

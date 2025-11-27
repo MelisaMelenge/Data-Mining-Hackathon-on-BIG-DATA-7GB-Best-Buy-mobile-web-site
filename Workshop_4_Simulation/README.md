@@ -1,4 +1,4 @@
-# Best Buy Clickstream Simulation (Workshop 4)
+# Best Buy Kaggle System Simulation (Workshop 4)
 
 This folder contains the simulation code and report for **Workshop 4** of the course *Systems Analysis & Design*.  
 The workshop implements two simulation approaches—one data-driven and one event-driven—based on the **Best Buy Mobile Web Site**.

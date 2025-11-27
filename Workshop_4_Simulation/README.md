@@ -1,13 +1,114 @@
-Workshop 4 - Simulation Implementation
-Files included:
-- simulation_ml.py : ML simulation (TF-IDF + RandomForest). Generates synthetic data if no input CSV provided.
-- simulation_ca.py : Cellular Automata event-based simulation.
-- requirements.txt : Python dependencies.
-Usage examples:
-1) Run ML simulation with synthetic data:
-   python simulation_ml.py --n_samples 8000 --output results_ml.csv
-2) Run CA simulation:
-   python simulation_ca.py --steps 100 --rows 50 --cols 50 --output ca_counts.csv
-To run on real data:
- - Provide a CSV with columns: user, sku, category, query, query_time, click_time
- - Example: python simulation_ml.py --input train_sample.csv --output results_ml.csv
+# Best Buy Clickstream Simulation (Workshop 4)
+
+This folder contains the simulation code and report for **Workshop 4** of the course *Systems Analysis & Design*.  
+The workshop implements two simulation approaches—one data-driven and one event-driven—based on the **Best Buy Mobile Web Site**.
+
+---
+
+## Summary
+
+The goal of this workshop is to validate the system architecture developed earlier in the semester by simulating how it behaves under real data and event-driven environments.  
+Two simulations were implemented:
+
+1. **Data-Driven Simulation (Classic ML):**  
+   A Random Forest model is used to approximate product-category prediction using a sampled portion of the clickstream dataset.
+
+2. **Event-Driven Simulation (Cellular Automata):**  
+   A cellular automata model simulates user session states (search, click, abandonment, purchase) to observe emergent patterns and dynamic behaviors.
+
+
+---
+
+## Simulation Approach
+
+### **1. Data Preparation**
+- Used the same Kaggle competition as Workshops 1 and 2:  
+  **ACM SF Chapter Hackathon — Best Buy Mobile Web Site**
+- Loaded `train.csv` and `test.csv` (≈7GB combined).
+- Reduced dataset to ~200,000 interactions to maintain feasible runtime.
+- Cleaned and normalized:
+  - Converted timestamps to datetime.
+  - Lowercased and sanitized queries.
+  - Selected only relevant columns (user, sku, category, query, click_time, query_time).
+- From `product_data.tar.gz` (~805MB), extracted **one representative keyword** per review using simple keyword selection (e.g., most frequent non-stopword).
+
+### **2. Scenario 1 — Data-Driven Simulation (ML)**
+Simulates the system’s learning/prediction workflow.
+
+- TF-IDF encoding of search queries  
+- Timestamp and categorical feature engineering  
+- Random Forest classifier  
+- Evaluation using:
+  - MAP@5  
+  - Recall@K  
+  - Runtime  
+- Assessed robustness under noisy or incomplete queries.
+
+### **3. Scenario 2 — Event-Driven Simulation (Cellular Automata)**
+Simulates behavior and emergent patterns in user sessions.
+
+- Each cell represents a session state:
+  - Query  
+  - Click  
+  - Exploration  
+  - Abandonment  
+  - Purchase  
+- Transition rules based on:
+  - Number of clicks  
+  - Dwell time  
+  - Query type  
+  - Session patterns  
+- Evaluated:
+  - Stability under perturbations  
+  - Convergence or decay patterns  
+  - Clusters of user drop-offs  
+
+### **4. System Workflow Validation**
+Running both simulations validates:
+
+- Whether modules behave correctly under real data loads  
+- Whether performance degrades under noise or chaos-like conditions  
+- Whether preprocessing improves prediction stability  
+
+---
+
+## How to Run
+1. Clone the repository and navigate to the `Workshop 4` folder.
+2. Install required Python packages:  
+   `pandas`, `numpy`, `scikit-learn`, `scipy`, `matplotlib`
+
+3. Run the simulation scripts:
+
+   - **Data-Driven Simulation:**  
+     ```bash
+     python simulation_ml.py
+     ```
+
+   - **Event-Driven Simulation:**  
+     ```bash
+     python simulation_ca.py
+     ```
+
+
+---
+
+## Results
+(*Left intentionally blank for final report*)  
+
+---
+
+## Report
+- **Full Workshop 4 Simulation Report (PDF):**  
+  [`Workshop4_Report.pdf`](./docs/Workshop4_Report.pdf)
+
+---
+
+##  Authors
+- **Juan Diego Martínez Beltrán**  
+- **Luis Felipe Suárez Sánchez**  
+- **Jean Pierre Mora Cepeda**  
+- **Melisa Maldonado Melenge**
+
+Universidad Distrital Francisco José de Caldas  
+**Systems Analysis & Design – 2025**
+

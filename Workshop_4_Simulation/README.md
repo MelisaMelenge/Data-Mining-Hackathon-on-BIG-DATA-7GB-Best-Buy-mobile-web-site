@@ -81,12 +81,12 @@ Running both simulations validates:
 
    - **Data-Driven Simulation:**  
      ```bash
-     python simulation_ml.py
+     python simulation_ML.py
      ```
 
    - **Event-Driven Simulation:**  
      ```bash
-     python simulation_ca.py
+     python simulation_CA.py
      ```
 
 

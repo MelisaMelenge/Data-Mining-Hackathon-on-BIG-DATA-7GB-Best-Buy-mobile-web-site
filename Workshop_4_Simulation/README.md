@@ -93,7 +93,54 @@ Running both simulations validates:
 ---
 
 ## Results
-(*Left intentionally blank for final report*)  
+Data-Driven ML Simulation
+
+Performance Overview
+The ML simulation validated the recommendation pipeline architecture. The Random Forest model processed synthetic clickstream data efficiently, achieving moderate predictive accuracy with sub-second training times.
+
+Key Findings
+TF-IDF combined with temporal features captured meaningful user behavior patterns
+A notable gap between Top-5 accuracy and MAP@5 indicated correct predictions often ranked lower than optimal
+Training efficiency confirmed scalability potential on standard hardware
+Feature engineering emerged as the primary performance bottleneck
+
+Limitations
+Ambiguous queries and rare categories proved challenging
+Class imbalance biased predictions toward popular categories
+Current feature set reached an accuracy ceiling requiring semantic understanding
+
+Event-Driven CA Simulation
+
+System Behavior
+The cellular automata simulation revealed how user sessions evolved through behavioral states, influenced by query quality and neighbor interactions (social proof effects).
+
+Temporal Dynamics
+Three distinct phases emerged:
+1. Rapid Reorganization: Browsing sessions quickly resolved to engagement or abandonment
+2. Conversion Growth: Clicked sessions transitioned primarily to purchases
+3. Equilibrium:  System converged to binary outcomes (abandoned or converted)
+
+Emergent Patterns
+Transient states collapsed rapidly, leaving only terminal states at equilibrium
+High-quality perturbations created conversion "hotspots" that influenced neighboring cells
+
+Comparative Insights
+
+The simulations provided complementary perspectives:
+ML Simulation validated prediction accuracy and computational efficiency
+CA Simulation explored collective behavior and emergent dynamics
+
+Next Steps
+
+Immediate priorities:
+Implement semantic embeddings for better query understanding
+Calibrate CA parameters using real behavioral data
+Develop ranking-optimized models for MAP@5
+
+Future enhancements:
+- Build hybrid simulation combining ML predictions with CA dynamics
+- Create A/B testing framework to evaluate improvements before deployment
+
 
 ---
 

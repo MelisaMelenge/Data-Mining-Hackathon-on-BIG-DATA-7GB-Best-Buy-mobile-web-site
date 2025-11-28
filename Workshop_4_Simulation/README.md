@@ -147,7 +147,7 @@ The simulations provided complementary perspectives:
 
 ## Report
 - **Full Workshop 4 Simulation Report (PDF):**  
-  [`Workshop4_Report.pdf`](./docs/Workshop4_Report.pdf)
+  [`Workshop4_Report.pdf`]([./docs/Workshop4_Report.pdf](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop_4_Simulation/Workshop4.pdf))
 
 ---
 

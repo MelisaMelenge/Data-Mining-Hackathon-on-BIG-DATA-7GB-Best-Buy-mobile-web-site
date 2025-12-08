@@ -1,4 +1,4 @@
-# BestBuy Product Recommendation System
+# BestBuy Product Recommendation 
 
 This directory contains all the components needed to run a Random Forest-based product recommendation pipeline. The system processes user search queries and predicts which BestBuy products a mobile web visitor will be most interested in based on their behavior.
 
@@ -78,4 +78,5 @@ The system uses a **Random Forest classifier** with the following features:
 - Temporal features (click time)
 - Category-specific models for improved accuracy
 - Feature engineering with NLTK lemmatization
+
 

@@ -1,4 +1,4 @@
-# Data-Mining-Hackathon-on-BIG-DARA-Best-Buy-Mobile-Web-Site (Workshop 4)
+# Data-Mining-Hackathon-on-BIG-DATA-Best-Buy-Mobile-Web-Site (Workshop 4)
 
 This folder contains the data presented in the project. Since the files are quite large, they cannot be uploaded to GitHub. Therefore, here are the direct links to download the data:
 

@@ -5,7 +5,7 @@ This directory contains all the components needed to run a Random Forest-based p
 ## Directory Structure
 
 ```
-├── dataset/             # Folder containing all required input data files
+├── maindata/             # Folder containing all required input data files
 │   ├── train.csv       # Training data with user queries and product interactions
 │   ├── test.csv        # Test data for generating predictions
 │   ├── new_train.csv   # Preprocessed training data (generated)
@@ -78,3 +78,4 @@ The system uses a **Random Forest classifier** with the following features:
 - Temporal features (click time)
 - Category-specific models for improved accuracy
 - Feature engineering with NLTK lemmatization
+

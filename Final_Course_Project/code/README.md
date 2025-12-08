@@ -40,7 +40,7 @@ python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
 
 ## Usage
 
-1. **Prepare the data**: Place `train.csv` and `test.csv` in the `dataset/` folder.
+1. **Prepare the data**: Place `train.csv` and `test.csv` in the `maindata/` folder.
 
 2. **Preprocess the data**:
    ```bash
@@ -78,5 +78,6 @@ The system uses a **Random Forest classifier** with the following features:
 - Temporal features (click time)
 - Category-specific models for improved accuracy
 - Feature engineering with NLTK lemmatization
+
 
 

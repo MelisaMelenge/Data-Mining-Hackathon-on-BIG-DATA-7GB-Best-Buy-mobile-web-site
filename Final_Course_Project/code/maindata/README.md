@@ -21,3 +21,7 @@ This folder contains the data presented in the project. Since the files are quit
 If the links above do not work, you can download the files directly from this page:
 
 - https://www.kaggle.com/competitions/acm-sf-chapter-hackathon-big/data
+
+## Small Data Scenario
+
+- The **data** used for the system behavior scenario with small data is available [here](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/tree/main/Final_Course_Project/code/maindata/small_data_test).

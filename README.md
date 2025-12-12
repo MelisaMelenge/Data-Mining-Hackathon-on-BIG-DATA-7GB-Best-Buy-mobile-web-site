@@ -9,7 +9,16 @@ This repository was created for the System Analysis and Design course. It contai
  **Workshop Report:** [Workshop 3](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop-3/Workshop%203.pdf)
  # Workshop 4 — Kaggle System Simulation
  **Workshop Report:** [Workshop 4](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop_4_Simulation/Workshop4.pdf)
- 
+ ### Final Project
+**Focus:** Consolidation and complete academic documentation
+- **Scientific paper** with methodology and results
+- **Detailed technical report** of development
+- **Slides** and **poster** for academic communication
+- **Documents:** 
+  - [Paper.pdf](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Final_Course_Project/Click2Buy_Paper.pdf)
+  - [Technical_Report.pdf](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Final_Course_Project/Final_Report.pdf)
+  - [Slides.pdf](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Final_Course_Project/Click2Buy_Slides.pdf)
+  - [Poster.pdf](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Final_Course_Project/Click2Buy_Poster.pdf)
 ##  Authors
 - **Juan Diego Martínez Beltrán**  
 - **Luis Felipe Suárez Sánchez**  

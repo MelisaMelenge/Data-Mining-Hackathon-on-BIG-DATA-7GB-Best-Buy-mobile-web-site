@@ -9,7 +9,7 @@ This repository was created for the System Analysis and Design course. It contai
  **Workshop Report:** [Workshop 3](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop-3/Workshop%203.pdf)
  # Workshop 4 — Kaggle System Simulation
  **Workshop Report:** [Workshop 4](https://github.com/MelisaMelenge/Data-Mining-Hackathon-on-BIG-DATA-7GB-Best-Buy-mobile-web-site/blob/main/Workshop_4_Simulation/Workshop4.pdf)
- ### Final Project
+ # Final Project
 **Focus:** Consolidation and complete academic documentation
 - **Scientific paper** with methodology and results
 - **Detailed technical report** of development
